@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-ldpi/buttonstyle_three_background.xml" value="0.583" />
+        <entry key="app/src/main/res/drawable-ldpi/commission_information_background.xml" value="0.3835" />
+        <entry key="app/src/main/res/drawable-ldpi/otp_color_selector.xml" value="0.5685" />
+        <entry key="app/src/main/res/drawable-ldpi/otp_item_focused.xml" value="0.5685" />
+        <entry key="app/src/main/res/drawable-ldpi/otp_item_unfocused.xml" value="0.5685" />
+        <entry key="app/src/main/res/drawable-v24/bottom_sheet_backgorund.xml" value="0.583" />
+        <entry key="app/src/main/res/drawable-v24/bottomsheet_background.xml" value="0.4325" />
+        <entry key="app/src/main/res/drawable-v24/buttonstyle_one_background.xml" value="0.2635" />
+        <entry key="app/src/main/res/drawable-v24/cardstyle_10rd.xml" value="0.486" />
+        <entry key="app/src/main/res/drawable-v24/cardstyle_15rd.xml" value="0.486" />
+        <entry key="app/src/main/res/drawable-v24/drawer_background_layer_list.xml" value="0.5235" />
+        <entry key="app/src/main/res/drawable-v24/edittext_background.xml" value="0.312" />
+        <entry key="app/src/main/res/drawable-v24/edittext_color_selector.xml" value="0.312" />
+        <entry key="app/src/main/res/drawable-v24/edittext_cursor.xml" value="0.583" />
+        <entry key="app/src/main/res/drawable-v24/edittext_focused.xml" value="0.312" />
+        <entry key="app/src/main/res/drawable-v24/edittext_tint_color_selector.xml" value="0.316" />
+        <entry key="app/src/main/res/drawable-v24/edittext_unfocused.xml" value="0.312" />
+        <entry key="app/src/main/res/drawable-v24/last_attempts_indicator.xml" value="0.265" />
+        <entry key="app/src/main/res/drawable-v24/merchant_background.xml" value="0.4325" />
+        <entry key="app/src/main/res/drawable-xhdpi/process_step_backgroound.xml" value="0.2855" />
+        <entry key="app/src/main/res/drawable-xhdpi/rectangle_white_10rd_gates.xml" value="0.2575" />
+        <entry key="app/src/main/res/drawable-xhdpi/transfer_detail_background.xml" value="0.2855" />
+        <entry key="app/src/main/res/drawable/alert_dialog_background.xml" value="0.582" />
+        <entry key="app/src/main/res/drawable/black_circle.xml" value="0.248" />
+        <entry key="app/src/main/res/drawable/blue_circle.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/bottomsheet_top_background.xml" value="0.4315" />
+        <entry key="app/src/main/res/drawable/buttonstyle_two_background.xml" value="0.248" />
+        <entry key="app/src/main/res/drawable/cardstyle_5rd.xml" value="0.486" />
+        <entry key="app/src/main/res/drawable/drawer_item_background.xml" value="0.5235" />
+        <entry key="app/src/main/res/drawable/drawer_item_background_selector.xml" value="0.5235" />
+        <entry key="app/src/main/res/drawable/edittext_background.xml" value="0.248" />
+        <entry key="app/src/main/res/drawable/error.xml" value="0.133" />
+        <entry key="app/src/main/res/drawable/error_layer_list.xml" value="0.133" />
+        <entry key="app/src/main/res/drawable/ic_menu_svg_com.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/ic_notifications_none_white_24dp.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/ic_transfer_svg.xml" value="0.5235" />
+        <entry key="app/src/main/res/drawable/last_transaction_indicator.xml" value="0.1465" />
+        <entry key="app/src/main/res/drawable/login_layer_list.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/profile_background.xml" value="0.2795" />
+        <entry key="app/src/main/res/drawable/question_layer_list.xml" value="0.3395" />
+        <entry key="app/src/main/res/drawable/question_white.xml" value="0.133" />
+        <entry key="app/src/main/res/drawable/rectangle_bottom_left_rd.xml" value="0.10330822753906249" />
+        <entry key="app/src/main/res/drawable/rectangle_top_left_rd.xml" value="0.248" />
+        <entry key="app/src/main/res/drawable/rectangle_top_right_rd.xml" value="0.178" />
+        <entry key="app/src/main/res/drawable/rectangle_white_10rd.xml" value="0.139" />
+        <entry key="app/src/main/res/drawable/rectangle_white_5rd.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/success.xml" value="0.133" />
+        <entry key="app/src/main/res/drawable/top_bot_right_rd_layer_list.xml" value="0.248" />
+        <entry key="app/src/main/res/drawable/vertical_dark_gradient.xml" value="0.2635" />
+        <entry key="app/src/main/res/drawable/white_circle.xml" value="0.2635" />
+        <entry key="app/src/main/res/layout/activity_landing.xml" value="0.34375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_payment_gateway_detail.xml" value="0.45416666666666666" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.32382246376811596" />
+        <entry key="app/src/main/res/layout/activity_transfer_detail.xml" value="0.2441123188405797" />
+        <entry key="app/src/main/res/layout/app_bar_default.xml" value="0.15760869565217392" />
+        <entry key="app/src/main/res/layout/app_bar_main_drawer.xml" value="0.7223958333333333" />
+        <entry key="app/src/main/res/layout/bottomsheet_change_password.xml" value="0.434375" />
+        <entry key="app/src/main/res/layout/bottomsheet_comminication.xml" value="0.4606403295544611" />
+        <entry key="app/src/main/res/layout/content_default.xml" value="0.15760869565217392" />
+        <entry key="app/src/main/res/layout/content_main_drawer.xml" value="0.7223958333333333" />
+        <entry key="app/src/main/res/layout/content_notification.xml" value="0.15760869565217392" />
+        <entry key="app/src/main/res/layout/custom_alert_dialog.xml" value="0.45989583333333334" />
+        <entry key="app/src/main/res/layout/custom_alert_dialog2.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/custom_header.xml" value="0.415625" />
+        <entry key="app/src/main/res/layout/custom_header2.xml" value="0.31431159420289856" />
+        <entry key="app/src/main/res/layout/custom_loading.xml" value="0.4317708333333333" />
+        <entry key="app/src/main/res/layout/drawer_header.xml" value="0.34168243408203125" />
+        <entry key="app/src/main/res/layout/fragment_change_password_forget.xml" value="0.32864583333333336" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.2698412698412698" />
+        <entry key="app/src/main/res/layout/fragment_forgot_password.xml" value="0.32864583333333336" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.15760869565217392" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_otp.xml" value="0.3618072509765625" />
+        <entry key="app/src/main/res/layout/fragment_payment_gateway_detail.xml" value="0.41563568115234373" />
+        <entry key="app/src/main/res/layout/fragment_payment_gateways.xml" value="0.2828864303510155" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.2826086956521739" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.7223958333333333" />
+        <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.32382246376811596" />
+        <entry key="app/src/main/res/layout/fragment_test.xml" value="0.27263641357421875" />
+        <entry key="app/src/main/res/layout/fragment_test_tool.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/fragment_transfer_detail.xml" value="0.31431159420289856" />
+        <entry key="app/src/main/res/layout/fragment_transfers.xml" value="0.36724565756823824" />
+        <entry key="app/src/main/res/layout/item_chosen_providers.xml" value="0.31431159420289856" />
+        <entry key="app/src/main/res/layout/item_commission_information.xml" value="0.45416666666666666" />
+        <entry key="app/src/main/res/layout/item_dashboard.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_gateways.xml" value="0.2826086956521739" />
+        <entry key="app/src/main/res/layout/item_last_attempts.xml" value="0.27807971014492755" />
+        <entry key="app/src/main/res/layout/item_last_transactions.xml" value="0.3644859813084112" />
+        <entry key="app/src/main/res/layout/item_process_step.xml" value="0.31431159420289856" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.15760869565217392" />
+        <entry key="app/src/main/res/layout/nav_header_main_drawer.xml" value="0.7223958333333333" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.7223958333333333" />
+        <entry key="app/src/main/res/menu/drawer_menu.xml" value="0.70625" />
+        <entry key="app/src/main/res/menu/main_drawer.xml" value="0.7223958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#4189B2</color>
+    <color name="primaryLightColor">#76b9e4</color>
+    <color name="primaryDarkColor">#005c82</color>
+    <color name="secondaryColor">#60CCA9</color>
+    <color name="secondaryLightColor">#94ffdb</color>
+    <color name="secondaryDarkColor">#279a7a</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white30">#4DFFFFFF</color>
+
+    <!--EdittextStylesColor-->
+    <color name="edittextUnselectedBorderColor">#D5D5D5</color>
+    <color name="edittextInactiveColor">#F2F2F2</color>
+    <color name="edittextSelectedBorderColor">#1F8CBC</color>
+    <color name="cursorColor">#1F8CBC</color>
+    <color name="edittextTextColor">#151515</color>
+    <color name="edittextHintColor">#D5D5D5</color>
+    <color name="edittextHintColor2">#8C8C8C</color>
+
+    <!--TextStylesColor-->
+    <color name="headerTextColor">#232B34</color>
+    <color name="headerTextColor2">#2E2E2E</color>
+    <color name="bodyTextColor">#687584</color>
+    <color name="generallyTextColor">#1A223C</color>
+    <color name="dangerColor">#A21409</color>
+    <color name="verifiedColor">#49BA19</color>
+
+    <!--ThemeStylesColor-->
+    <color name="backgroundColor">#F4F8FB</color>
+    <color name="headerImageBackgroundColor">#D5F0F6</color>
+    <color name="otpFocusedColor">#9BCED9</color>
+    <color name="otpUnfocusedColor">#D5F0F6</color>
+    <color name="radioButtonUncheckedColor">#D5D5D5</color>
+    <color name="radioButtonCheckedColor">#AC2900</color>
+    <color name="transparent">#00000000</color>
+    <color name="bottomNavUnselected">#D5D5D5</color>
+    <color name="bottomNavSelected">#001D00</color>
+    <color name="colorError">#D30000</color>
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorLoginBg">#D8D8D8</color>
+    <color name="transactionTypeColor1">#90BE6D</color>
+    <color name="transactionTypeColor2">#43AA8B</color>
+    <color name="transactionTypeColor3">#4D908E</color>
+    <color name="transactionTypeColor4">#F9C74F</color>
+    <color name="transactionTypeColor5">#F8961E</color>
+    <color name="transactionTypeColor6">#F9844A</color>
+    <color name="colorDenizBank">#004C91</color>
+    <color name="colorAkBank">#DF392E</color>
+    <color name="colorParam">#49267F</color>
+    <color name="colorEsnekPos">#322AC7</color>
+    <color name="colorIyzico">#1E64FF</color>
+    <color name="colorKuveyt">#046648</color>
+    <color name="colorBusiness">#736CC4</color>
+
+</resources>

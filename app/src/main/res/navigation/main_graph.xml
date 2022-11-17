@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.intranet.paywallpanel.ui.main.drawer.dashboard.DashboardFragment"
+        android:label="Ana Sayfa"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/transfersFragment"
+        android:name="com.intranet.paywallpanel.ui.main.drawer.transfers.TransfersFragment"
+        android:label="Transferler"
+        tools:layout="@layout/fragment_transfers" />
+    <fragment
+        android:id="@+id/paymentGatewaysFragment"
+        android:name="com.intranet.paywallpanel.ui.main.drawer.paymentgateways.PaymentGatewaysFragment"
+        android:label="Ödeme Sağlayıcıları"
+        tools:layout="@layout/fragment_payment_gateways" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.intranet.paywallpanel.ui.main.drawer.settings.SettingsFragment"
+        android:label="Ayarlar"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.intranet.paywallpanel.ui.main.drawer.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

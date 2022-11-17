@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/landing_nav"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.intranet.paywallpanel.ui.landing.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_otpFragment"
+            app:destination="@id/otpFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.intranet.paywallpanel.ui.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" />
+    <fragment
+        android:id="@+id/otpFragment"
+        android:name="com.intranet.paywallpanel.ui.landing.otp.OtpFragment"
+        android:label="fragment_otp"
+        tools:layout="@layout/fragment_otp" >
+        <argument
+            android:name="captcha"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_otpFragment_to_changePasswordForgetFragment"
+            app:destination="@id/changePasswordForgetFragment" />
+        <argument
+            android:name="isLogin"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/changePasswordForgetFragment"
+        android:name="com.intranet.paywallpanel.ui.landing.changepasswordforget.ChangePasswordForgetFragment"
+        android:label="fragment_change_password_forget"
+        tools:layout="@layout/fragment_change_password_forget" >
+        <argument
+            android:name="tempToken"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.intranet.paywallpanel.ui.landing.forgotpassword.ForgotPasswordFragment"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" >
+        <action
+            android:id="@+id/action_forgotPasswordFragment_to_otpFragment"
+            app:destination="@id/otpFragment" />
+    </fragment>
+</navigation>

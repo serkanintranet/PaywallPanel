@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/payment_gateway_detail_nav"
+    app:startDestination="@id/paymentGatewayDetailFragment">
+
+    <fragment
+        android:id="@+id/paymentGatewayDetailFragment"
+        android:name="com.intranet.paywallpanel.ui.main.drawer.paymentgateways.paymentgatewaydetail.PaymentGatewayDetailFragment"
+        android:label="fragment_payment_gateway_detail"
+        tools:layout="@layout/fragment_payment_gateway_detail" />
+</navigation>

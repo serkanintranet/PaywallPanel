@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.infideap.drawerbehaviorexample.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp" />
+
+            <com.app.infideap.stylishwidget.view.AButton
+                android:id="@+id/button_default"
+                style="@style/Button.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:text="default" />
+
+            <com.app.infideap.stylishwidget.view.AButton
+                android:id="@+id/button_advance1"
+                style="@style/Button.Accent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:text="Advance 1" />
+
+
+            <com.app.infideap.stylishwidget.view.AButton
+                android:id="@+id/button_advance2"
+                style="@style/Button.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:text="Advance 2" />
+
+            <com.app.infideap.stylishwidget.view.AButton
+                android:id="@+id/button_advance3"
+                style="@style/Button.Accent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:text="Advance 3" />
+
+            <com.app.infideap.stylishwidget.view.AButton
+                android:id="@+id/button_advance4"
+                style="@style/Button.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:text="Advance 4" />
+
+            <com.app.infideap.stylishwidget.view.AButton
+                android:id="@+id/button_advance5"
+                style="@style/Button.Accent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:text="Advance 5 (Card)" />
+
+            <com.app.infideap.stylishwidget.view.AButton
+                android:id="@+id/button_advance6"
+                style="@style/Button.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:text="Advance 6 (RTL)" />
+
+
+            <com.app.infideap.stylishwidget.view.AButton
+                android:id="@+id/button_advance_3d_1"
+                style="@style/Button.Accent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:text="Advance 3D" />
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.core.widget.NestedScrollView>

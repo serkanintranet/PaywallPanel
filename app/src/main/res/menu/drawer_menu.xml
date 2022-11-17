@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:icon="@drawable/ic_dashboard_svg"
+            android:id="@+id/dashboardFragment"
+            android:title="@string/main_page">
+        </item>
+
+        <item
+            android:icon="@drawable/ic_transfer_svg"
+            android:id="@+id/transfersFragment"
+            android:title="@string/transfers_page">
+        </item>
+
+        <item
+            android:icon="@drawable/payment_method_svg"
+            android:id="@+id/paymentGatewaysFragment"
+            android:title="@string/gateways_page">
+        </item>
+
+        <item
+            android:icon="@drawable/ic_personsvg"
+            android:id="@+id/profileFragment"
+            android:title="@string/profile">
+        </item>
+
+        <item
+            android:icon="@drawable/ic_settings_svg"
+            android:id="@+id/settingsFragment"
+            android:title="@string/settings_page">
+        </item>
+
+        <item
+            android:icon="@drawable/ic_logoutsvg"
+            android:title="@string/logout">
+        </item>
+
+    </group>
+
+</menu>

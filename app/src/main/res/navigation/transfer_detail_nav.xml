@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/transfer_detail_nav"
+    app:startDestination="@id/transferDetailFragment">
+
+    <fragment
+        android:id="@+id/transferDetailFragment"
+        android:name="com.intranet.paywallpanel.ui.main.drawer.transfers.transferdetail.TransferDetailFragment"
+        android:label="fragment_transfer_detail"
+        tools:layout="@layout/fragment_transfer_detail" />
+</navigation>

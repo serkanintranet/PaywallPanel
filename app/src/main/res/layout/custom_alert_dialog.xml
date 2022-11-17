@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#65000000"
+    android:gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/alert_dialog_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_status"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/status_success"
+            android:contentDescription="@string/app_name"/>
+
+
+        <TextView
+            android:id="@+id/tv_header_alert"
+            style="@style/TextViewHeaderStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:letterSpacing="0.03"
+            android:text="@string/success"
+            android:textSize="22sp"
+            app:layout_constraintStart_toEndOf="@id/iv_status"
+            app:layout_constraintBottom_toBottomOf="@id/iv_status"
+            app:layout_constraintTop_toTopOf="@id/iv_status" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            style="@style/TextViewBodyStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="30dp"
+            android:layout_marginTop="30dp"
+            android:letterSpacing="0.03"
+            android:text="@string/process_success"
+            android:textSize="13sp"
+            app:layout_constrainedHeight="true"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintBottom_toTopOf="@id/ll_buttons"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_header_alert" />
+
+        <LinearLayout
+            android:id="@+id/ll_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                style="@style/ButtonStyleThree"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_margin="5dp"
+                android:text="@string/cancel"
+                android:textSize="12sp"
+                android:translationZ="3dp" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                style="@style/ButtonStyleTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_margin="5dp"
+                android:text="@string/okay"
+                android:textSize="12sp"
+                android:translationZ="3dp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--<com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/rl_status"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/error_layer_list"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/iv_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/app_name"
+                    android:padding="5dp"
+                    android:src="@drawable/error" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/generallyTextColor"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@id/ll_buttons"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rl_status"
+                tools:text="İşlem Başarısızİşlem Başarısızİşlem Başarısızİşlem Başarısızİşlem Başarısızİşlem Başarısızİşlem Başarısızİşlem Başarısızİşlem Başarısız" />
+
+            <LinearLayout
+                android:id="@+id/ll_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    style="@style/TextViewButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:text="@string/cancel" />
+
+                <Button
+                    android:id="@+id/btn_confirm"
+                    style="@style/ButtonStyleOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:text="@string/okay" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
